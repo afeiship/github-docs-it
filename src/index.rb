@@ -2,6 +2,8 @@
 
 require "thor"
 require "fileutils"
+require "net/http"
+require "json"
 
 TOKEN = ENV["GITHUB_API_TOKEN"]
 
